@@ -189,6 +189,7 @@ header {
 }
 
 .content {
+    width: 100%;
     display: block;
     position: absolute;
     top: 50%;
@@ -223,10 +224,7 @@ header {
 }
 
 section {
-    display: block;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
 }
 
 footer {
