@@ -136,10 +136,14 @@ html:before {
     position: relative;
     top: 0;
     left: 0;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     height: 100%;
     width: 100%;
+    max-width: 1200px;
     z-index: 999;
     color: rgba(255,255,255,0.8);
 }
@@ -198,7 +202,6 @@ header {
 }
 
 #coming-soon {
-    margin: 0;
     padding: 0;
     font-size: 2em;
     font-weight: bold;
@@ -207,9 +210,11 @@ header {
 
 .contact {
     width: 80%;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
-    top: 40px;
+    top: 60px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -228,8 +233,10 @@ section {
 }
 
 footer {
+    width: 100%;
     display: block;
-    position: relative;
+    position: absolute;
+    bottom: 100px;
 }
 
 
